@@ -1,0 +1,166 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "defaultExported": false,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "stories",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "stories/Button.tsx"
+            },
+            "presets": []
+          },
+          "name": "Button",
+          "presets": [],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Is this the principal call to action on the page?",
+              "isRequired": false,
+              "name": "primary",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "What background color to use",
+              "isRequired": false,
+              "name": "backgroundColor",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "medium"
+              },
+              "description": "How large should the button be?",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Button contents",
+              "isRequired": true,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Optional click handler",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": false,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "stories",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "stories/Header.tsx"
+            },
+            "presets": []
+          },
+          "name": "Header",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "user",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "onLogin",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "onLogout",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "onCreateAccount",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "UXPin Merge + TypeScript + Storybook",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "b68c8397989bc8f4551de7de2d21a69c22f303c7",
+    "paths": {
+      "configPath": "/Users/yuta.matsui/Documents/project/learn/uxpinmerge-storybook/uxpin.config.js",
+      "projectRoot": "/Users/yuta.matsui/Documents/project/learn/uxpinmerge-storybook"
+    }
+  }
+}
